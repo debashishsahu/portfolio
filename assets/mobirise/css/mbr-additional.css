@@ -1632,12 +1632,12 @@ a {
   text-align: left;
 }
 .cid-sVbGc3znOC {
-  padding-top: 3rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-sVbHzE7Yx5 {
-  padding-top: 5rem;
+  padding-top: 0rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
@@ -1788,7 +1788,10 @@ a {
 .cid-sVe77aaEWI {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
+}
+.cid-sVe77aaEWI .mbr-section-subtitle {
+  color: #686868;
 }
 .cid-sVe8fce7zM {
   padding-top: 0rem;
@@ -2944,9 +2947,14 @@ a {
 .cid-sVh6DKZ3Yh .mbr-section-subtitle {
   text-align: left;
 }
+.cid-sVkXrnewiz {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
 .cid-sVhfshHUyl {
   padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
 .cid-sVh9NO1Ch3 {
