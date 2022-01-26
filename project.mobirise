@@ -51,7 +51,7 @@
         "url": "https://fonts.googleapis.com/css?family=Lexend:100,200,300,400,500,600,700,800,900"
       }
     ],
-    "uniqCompNum": 144,
+    "uniqCompNum": 147,
     "versionPublish": "5.5.8",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -62,9 +62,7 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "file:///Users/sushmitasahu/Personal/Dummy"
+    "gdpr": false
   },
   "pages": {
     "index.html": {
@@ -3502,16 +3500,22 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
           },
-          "_name": "content5",
+          "_name": "content4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div id=\"comp-jt80ass6\" class=\"_2JOHk\"><iframe class=\"_49_rs\" title=\"PDF Viewer\" aria-label=\"PDF Viewer\" scrolling=\"no\" src=\"https://wixlabs-pdf-dev.appspot.com/index?pageId=dllid&amp;compId=comp-jt80ass6&amp;viewerCompId=comp-jt80ass6&amp;siteRevision=350&amp;viewMode=site&amp;deviceType=desktop&amp;locale=en&amp;tz=Asia%2FKolkata&amp;regionalLanguage=en&amp;width=980&amp;height=601&amp;instance=2qsRytrgEtRlg3jQYzgUZRZn_Vc8guR3fl3QyRM82tY.eyJpbnN0YW5jZUlkIjoiZjYwNjgyZDQtZmNhOS00ZWViLWE2NDEtYjRkNDZlZWYxMzZjIiwiYXBwRGVmSWQiOiIxM2VlMTBhMy1lY2I5LTdlZmYtNDI5OC1kMmY5ZjM0YWNmMGQiLCJtZXRhU2l0ZUlkIjoiOTJmYzY0YWQtYmYyOS00ZmE5LWJkOTUtMGNjMzM2NTY3ZmMxIiwic2lnbkRhdGUiOiIyMDIyLTAxLTI2VDA3OjI3OjA2Ljc4NloiLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6ImU1MmJlOThiLThiZWYtNGM1ZC1hZGU4LWM5YTMwYjhlMjM2NCIsImJpVG9rZW4iOiI2NGZhZTY3OS00MzgwLTAxNDItMWJkNC1iODE3NThiOTZjYWQiLCJzaXRlT3duZXJJZCI6ImMyNGU3ZmJhLWU2ZDMtNGE2MS1hNjg3LWRlNTRiNmE4ODRiNSJ9&amp;currency=INR&amp;currentCurrency=INR&amp;commonConfig=%7B%22brand%22%3A%22wix%22%2C%22bsi%22%3A%2289b7e35f-50e2-4388-8aa9-daa830a9bf45%7C1%22%2C%22BSI%22%3A%2289b7e35f-50e2-4388-8aa9-daa830a9bf45%7C1%22%7D&amp;vsi=39235e30-b610-4b28-bb07-52fd39315eaa\" allowfullscreen=\"\" allowtransparency=\"true\" allowvr=\"true\" frameborder=\"0\" allow=\"autoplay;camera;microphone;geolocation;vr\"></iframe></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content5-3u",
-          "_isUserblock": true,
-          "_cid": "sVkXrnewiz",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title with Solid Background</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    You can arrange your articles with the Mobirise website design software.\n                </h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n                <iframe class=\"scribd_iframe_embed\" title=\"IMIcampaign WF\" src=\"https://www.scribd.com/embeds/554562469/content?start_page=1&view_mode=scroll&access_key=key-d71I6QPEO14kooCjGxWd\" tabindex=\"0\" data-auto-height=\"true\" data-aspect-ratio=\"1.7790927021696252\" scrolling=\"no\" width=\"100%\" height=\"600\" frameborder=\"0\"></iframe>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sVD9PR63Jy",
+          "_anchor": "content4-42",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
