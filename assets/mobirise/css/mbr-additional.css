@@ -2262,6 +2262,39 @@ a {
     left: -1rem;
   }
 }
+.cid-sVE9ncYsDd {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sVE9ncYsDd .item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.cid-sVE9ncYsDd .icon-box {
+  background: #6592e6;
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cid-sVE9ncYsDd .mbr-iconfont {
+  font-size: 2rem;
+  color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sVE9ncYsDd .card {
+    margin-bottom: 2rem;
+  }
+  .cid-sVE9ncYsDd .card-wrapper {
+    margin-bottom: 2rem;
+  }
+}
 .cid-sVeqAzjgPR {
   padding-top: 0rem;
   padding-bottom: 6rem;
@@ -2518,38 +2551,23 @@ a {
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-sVgz34ffXS {
-  padding-top: 0rem;
+.cid-sVEcDQ6PyF {
+  padding-top: 1rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-sVgz34ffXS .card-wrapper {
-  background: #f5f5f5;
-  border-radius: 4px;
+.cid-sVEcDQ6PyF .card-wrapper {
+  display: flex;
 }
-@media (max-width: 767px) {
-  .cid-sVgz34ffXS .card-wrapper {
-    padding: 1rem;
+@media (max-width: 991px) {
+  .cid-sVEcDQ6PyF .card-wrapper {
+    margin-bottom: 2rem;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-sVgz34ffXS .card-wrapper {
-    padding: 2rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-sVgz34ffXS .card-wrapper {
-    padding: 4rem;
-  }
-}
-.cid-sVgz34ffXS .mbr-text,
-.cid-sVgz34ffXS .mbr-section-btn {
-  color: #ffffff;
-}
-.cid-sVgz34ffXS .card-title,
-.cid-sVgz34ffXS .card-box {
-  text-align: left;
-  color: #000000;
+.cid-sVEcDQ6PyF .mbr-iconfont {
+  font-size: 2rem;
+  color: #6592e6;
+  padding-right: 1.5rem;
 }
 .cid-sVgGBTtTC9 {
   padding-top: 0rem;
@@ -2558,6 +2576,14 @@ a {
 }
 .cid-sVgGBTtTC9 .mbr-section-title {
   text-align: left;
+}
+.cid-sVEftTxjmZ {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-sVEftTxjmZ .mbr-section-title {
+  color: #7b7b7b;
 }
 .cid-sVgIdLQMNS {
   padding-top: 0rem;
@@ -2576,6 +2602,14 @@ a {
   .cid-sVgIdLQMNS .text-wrapper {
     padding: 2rem;
   }
+}
+.cid-sVEeKYxRle {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-sVEeKYxRle .mbr-section-title {
+  text-align: left;
 }
 .cid-sVgIXa5j1w {
   padding-top: 0rem;
@@ -2794,6 +2828,9 @@ a {
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
+.cid-sVh5AltIGY .mbr-page-title {
+  color: #7b7b7b;
+}
 .cid-sVh5RVJBh2 {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -2845,63 +2882,58 @@ a {
 .cid-sVCljy3yfc .mbr-section-subtitle {
   text-align: left;
 }
+.cid-sVCljy3yfc .mbr-page-title {
+  color: #7b7b7b;
+}
 .cid-sVD9PR63Jy {
   padding-top: 0rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
+}
+.cid-sVD9PR63Jy .mbr-section-title {
+  text-align: left;
+}
+.cid-sVD9PR63Jy .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-sVD9PR63Jy .mbr-page-title {
+  color: #7b7b7b;
 }
 .cid-sVhfshHUyl {
   padding-top: 0rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
+.cid-sVhfshHUyl .mbr-section-subtitle {
+  color: #7b7b7b;
+}
 .cid-sVh9NO1Ch3 {
   padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-bottom: 2rem;
   background-color: #ffffff;
 }
-.cid-sVhacv4z8b {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-sVhacv4z8b blockquote {
-  border-color: #f9f9f9;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-}
-.cid-sVhb1iWe86 {
-  padding-top: 0rem;
-  padding-bottom: 4rem;
-  background-color: #ffffff;
-}
-.cid-sVhb1iWe86 .card-wrapper {
-  display: flex;
-}
-@media (max-width: 991px) {
-  .cid-sVhb1iWe86 .card-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sVhb1iWe86 .mbr-iconfont {
-  font-size: 2rem;
-  color: #6592e6;
-  padding-right: 1.5rem;
-}
-.cid-sVhbTgnmFR {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
-}
-.cid-sVhbTgnmFR blockquote {
-  border-color: #f9f9f9;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-}
-.cid-sVhcfNYTeK {
+.cid-sVElHg80RW {
   padding-top: 0rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
+}
+.cid-sVElHg80RW ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2.5rem;
+}
+.cid-sVElHg80RW li {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.cid-sVElHg80RW ul li::before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 1.6rem;
 }
 .cid-sVh90GZP0g {
   padding-top: 2rem;
